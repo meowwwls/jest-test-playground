@@ -49,7 +49,9 @@ To run the tests:
 
 ## Tested Functions
 
-### [arrayOfRandomNumbers](./src/arrayOfRandomNumbers.js)
+### arrayOfRandomNumbers
+
+[**Source file**](./src/arrayOfRandomNumbers.js) | [**Test file**](./tests/arrayOfRandomNumbers.test.js)
 
 **Purpose**: This function creates a new array of a certain length and fills the array with random numbers between 0 and a provided max. (_I first needed this when trying to make Game of Life_.)
 
@@ -67,7 +69,9 @@ arrayOfRandomNumbers(5); // returns something like [0, 0, 1, 0, 1]
 arrayOfRandomNumbers(); // returns []
 ```
 
-### [isHexColor](./src/isHexColor.js)
+### isHexColor
+
+[**Source file**](./src/isHexColor.js) | [**Test file**](./tests/isHexColor.test.js)
 
 **Purpose**: Determine if an input is a valid hex color. Useful especially when trying to convert a hex color to another color format like RGB or HSL.
 
@@ -85,7 +89,9 @@ isHexColor('#a55eee'); // returns true
 isHexColor('fff'); // returns false
 ```
 
-### [hexToRGB](./src/hexToRGB.js)
+### hexToRGB
+
+[**Source file**](./src/hexToRGB.js) | [**Test file**](./tests/hexToRGB.test.js)
 
 **Purpose**: Take a valid hex color and convert it to RGB format.
 
