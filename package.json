@@ -1,18 +1,16 @@
 {
-  "name": "newarrayofnumbers",
+  "name": "jest-test-playground",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple unit test playground using Jest",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watchAll"
   },
-  "author": "",
+  "author": "Melissa Em",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
     "jest": "^22.4.3"
-  },
-  "dependencies": {
-    "babel-preset-env": "^1.6.1"
   }
 }

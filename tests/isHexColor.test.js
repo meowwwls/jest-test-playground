@@ -13,7 +13,8 @@ describe('isHexColor', () => {
     expect(isHexColor('')).toBe(false);
   });
 
-  it('should return false for any non-string input', () => {
+  it('should return false for any non-string input or when no argument is passed', () => {
+    expect(isHexColor()).toBe(false);
     expect(isHexColor(10)).toBe(false);
     expect(isHexColor(NaN)).toBe(false);
     expect(isHexColor([])).toBe(false);
