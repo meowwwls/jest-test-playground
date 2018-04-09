@@ -10,32 +10,40 @@ To run the tests:
 
 1.  Clone this repo from the terminal:
 
-    ```bash
+    Using SSH:
+
+    ```
     git clone git@github.com:meowwwls/jest-test-playground.git
+    ```
+
+    Using HTTPS:
+
+    ```
+    git clone https://github.com/meowwwls/jest-test-playground.git
     ```
 
 2.  Change directories to `jest-test-playground`:
 
-    ```bash
+    ```
     cd jest-test-playground
     ```
 
 3.  Install dependencies (Jest and Babel since the scripts use ES6+ features):
 
-    ```bash
+    ```
     npm install
     ```
 
-4.  To run the tests once, run:
+4.  To run the tests manually, run:
 
 
-    ```bash
+    ```
     npm test
     ```
 
     To watch the test and source files for changes and run tests on each save, run:
 
-    ```bash
+    ```
     npm run test-watch
     ```
 
